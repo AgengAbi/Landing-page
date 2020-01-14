@@ -155,18 +155,22 @@ body{
 	border-radius: 6px;
 	box-shadow:  0px 10px 30px 0 rgba(67, 43, 135, 0.1);
 	margin-left: 20px;
-	margin-bottom: 15px;
+	margin-bottom: 30px;
 }
 .center .cardi p{
 	font-size:18px;
 	width: 280px;
+	padding: 10px  20px 0 10px;
 }
 .card-id{
-	left: 160px;
+	float: right;
+	width: 120px;
+	right: 60px;
+	padding: 10px 0 20px;
 	position: relative;
-	top: 25px;
+	height: 100px;
 }
-.card-id p{
+.card-id h4{
 	font-size:18px;
 	font-weight: bold;
 }
@@ -177,8 +181,8 @@ body{
 	height: 44px;
 	width: 44px;
 	float: right;
-	right: 30px;
-	bottom: 30px;
+	bottom: 50px;
+	left: 30px;
 	position: relative;
 }
 
