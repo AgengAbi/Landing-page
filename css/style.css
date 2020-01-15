@@ -6,28 +6,33 @@ body{
 	overflow-x: hidden;
 }
 /*header*/
+.Blog-Mudik{
+	margin-right: 29px;
+	color: #261d40;
+}
 /*nav*/
 .navbar {
 	position: absolute;
 	z-index: 1;
 	width: 100%;
-	top:48px;
+	top:46px;
 }
 .navbar .nav-link{
 	font-size: 14px;
-	font-weight: 600;
-	color: #261d40;
+	font-weight: bold;
+	color: #261d40 !important;
 }
 .tombol{
 	width: 100px;
 	height: 38px;
 	background-color: white;
 	border: 2px solid #432b87;
-	color:#432b87;
+	color:#432b87 !important;
+	transform: uppercase;
 }
 .tombol:hover{
 	background-color: #6cbb01;
-	color: white;
+	color: white !important;
 	border: 2px solid #6cbb01;
 }
 /*hero*/
@@ -39,7 +44,7 @@ body{
 }
 .hero_text{
 	position: relative;
-	top: 250px;
+	top: 211px;
 	left: 60px;
 }
 
@@ -59,6 +64,13 @@ body{
 	font-size: 18px;
 	color: rgba(57, 53, 69, 0.8);
 }
+.btn-gp{
+	position: relative;
+	top: 54px;
+}
+.hero a{
+	display: inline-block;
+}
 .button-googleplay{
 	font-size: 16px;
 	line-height: 26px;
@@ -71,7 +83,6 @@ body{
 	position: relative;
 	height: 54px;
 	width: 201px;
-	top: 54px;
 }
 .objek{
 	border-top: 15px solid transparent;
@@ -89,7 +100,7 @@ body{
 	position: absolute;
 	border-radius: 4px;
 }
-.button-googleplay a{
+.button-googleplay p{
 	text-transform: uppercase;
 	font-weight: 600;
 	font-size: 16px;
@@ -105,7 +116,7 @@ body{
 
 /*about*/
 .about{
-	padding: 70px 0 50px;
+	padding: 70px 0 90px;
 }
 .about h1{
 	font-size:32px;
@@ -114,11 +125,11 @@ body{
 }
 .about_text{
 	color: rgba(57, 53, 69, 0.8);
-	margin-top: 100px;
+	margin-top: 50px;
 	margin-left: 50px;
 }
 .about p{
-	top: 38px;
+	margin-top:38px;
 }
 
 
@@ -127,6 +138,18 @@ body{
 /*service*/
 .service{
 	padding: 60px 0;
+	margin-bottom:100px;
+}
+.service img{
+	padding: 0 0 36px;
+}
+.service h3{
+	font-size: 24px;
+	padding: 0 0 24px;
+}
+.service p{
+	font-size: 14px;
+	color: #393545;
 }
 .card{
 	border: none;
@@ -141,10 +164,11 @@ body{
 
 /*slick*/
 .testimoni{
-	padding: 200px 0;
+	background-color: #fafafa;
+	height: 528px;
+	margin-bottom: 110px;
 }
 .center{
-	padding: 50px 0;
 }
 .text-cardid{
 	padding: 20px 10px
@@ -156,11 +180,12 @@ body{
 	box-shadow:  0px 10px 30px 0 rgba(67, 43, 135, 0.1);
 	margin-left: 20px;
 	margin-bottom: 30px;
+	margin-top: 110px;
 }
 .center .cardi p{
 	font-size:18px;
-	width: 280px;
-	padding: 10px  20px 0 10px;
+	width: 350px;
+	padding: 25px 0 0 25px;
 }
 .card-id{
 	float: right;
@@ -212,60 +237,74 @@ body{
 .cb{
 	padding: 70px 0 0;
 }
+.card h5{
+	font-size: 18px;
+	font-weight: bold;
+	padding: 0 0 20px;
+}
+.card p{
+	font-size: 14px;
+	color: #393545;
+	padding: 0 0 31px;
+}
+.card a{
+	text-decoration: none;
+	color: #432b87;
+	font-weight: bold;
+}
+.what .btn{
+	font-size: 14px;
+	width: 190px;
+	height: 50px;
+	transform: uppercase;
+}
 
 
 
 /*download*/
 .download{
 	padding: 75px 0;
+	margin-top: 51px;
 }
 .download h3{
 	font-size: 32px;
 	color: #261d40;
+	padding: 0 0 31px;
 }
-.download p{
+.download .p-download{
 	top: 31px;
 	font-size: 18px;
 	line-height: 1.67;
 	color: rgba(57,53,69,0.8);
 }
-.button-googleplay2{
-	font-size: 16px;
-	line-height: 26px;
-	letter-spacing: 0.48px;
-	align-items: center;
-	text-transform: uppercase;
-	background-color: #6cbb01;
-	border: none;
-	border-radius: 4px;
-	position: relative;
-	height: 54px;
-	width: 201px;
-	top: 50px;
-	}
-	.button-googleplay2 a{
-	text-transform: uppercase;
-	font-weight: 600;
-	font-size: 16px;
-	letter-spacing: 0.48px;
-	color: white;
-	margin-left: 66px;
-	margin-top: 11px;
-	position: absolute;
-	text-decoration: none;
-	}
-
-
+.btn-gp2{
+	margin-top: 54px;
+}
+.btn-gp2 a{
+	display: inline-block;
+}
 
 
 /*footer*/
 .footer{
 	padding: 110px 0;
 }
+.footer img{
+	margin-top: -8px;
+	padding: 0 0 23px;
+}
 .footer a{
 	padding: 0 20px 0 5px;
 }
-
+.footer h4{
+	font-size: 17px;
+	font-weight: 600;
+	padding: 0 0 20px;
+}
+.footer p{
+	font-size: 14px;
+	color: #393545;
+}
 
 
 
@@ -290,8 +329,7 @@ body{
 	/*about*/
 
 	.about_text{
-		left: 100px;
-		top: 80px;
+		margin-top: 90px;
 	}
 
 	/*service*/
@@ -315,7 +353,8 @@ body{
 
 
 	/*download*/
-	.button-googleplay2{
-		left: 250px;
+	.btn-gp2{
+		position: relative;
+		left: 200px;
 	}
 }
