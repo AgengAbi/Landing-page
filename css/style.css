@@ -181,6 +181,7 @@ body{
 	margin-left: 20px;
 	margin-bottom: 30px;
 	margin-top: 110px;
+	background: #fff;
 }
 .center .cardi p{
 	font-size:18px;
@@ -240,7 +241,7 @@ body{
 .card h5{
 	font-size: 18px;
 	font-weight: bold;
-	padding: 0 0 20px;
+	padding: 0 0 5px;
 }
 .card p{
 	font-size: 14px;
