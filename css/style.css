@@ -59,9 +59,10 @@ body{
 	letter-spacing: normal;
 	text-align: left;
 	color: #261d40;
+	margin:0;
 }
 .hero p{
-	margin-top: 31px;
+	margin: 31px 0 0;
 	font-size: 18px;
 	color: rgba(57, 53, 69, 0.8);
 }
@@ -123,6 +124,7 @@ body{
 	font-size:32px;
 	font-weight: 600;
 	color: #261d40;
+	margin:0;
 }
 .about_text{
 	color: rgba(57, 53, 69, 0.8);
@@ -130,7 +132,7 @@ body{
 	margin-left: 50px;
 }
 .about p{
-	margin-top:38px;
+	margin:38px 0 0 ;
 }
 
 
@@ -140,16 +142,25 @@ body{
 .service{
 	padding: 60px 0;
 }
+.serviced{
+	margin:0;
+}
+figure{
+	margin:0;
+}
 .service img{
 	padding: 0 0 36px;
+	margin:0;
 }
 .service h3{
 	font-size: 24px;
 	padding: 0 0 24px;
+	margin:0;
 }
 .service p{
 	font-size: 14px;
 	color: #393545;
+	margin:0;
 }
 .card{
 	border: none;
@@ -187,6 +198,7 @@ body{
 	font-size:18px;
 	width: 350px;
 	padding: 25px 0 0 25px;
+	margin:0;
 }
 .card-id{
 	float: right;
@@ -199,15 +211,17 @@ body{
 .card-id h4{
 	font-size:18px;
 	font-weight: bold;
+	margin:0;
 }
 .card-id h5{
 	font-size: 14px;
+	margin:0;
 }
 .cardi img{
 	height: 44px;
 	width: 44px;
 	float: right;
-	bottom: 50px;
+	bottom: 40px;
 	left: 30px;
 	position: relative;
 }
@@ -215,6 +229,9 @@ body{
 /*what*/
 .what{
 	padding: 50px 0;
+}
+.whatt{
+	margin:0;
 }
 .what a{
 	float: right;
@@ -242,16 +259,19 @@ body{
 	font-size: 18px;
 	font-weight: bold;
 	padding: 0 0 5px;
+	margin:0;
 }
 .card p{
 	font-size: 14px;
 	color: #393545;
 	padding: 0 0 31px;
+	margin:0;
 }
 .card a{
 	text-decoration: none;
 	color: #432b87;
 	font-weight: bold;
+	margin:0;
 }
 .what .btn{
 	font-size: 14px;
@@ -315,6 +335,7 @@ body{
 .footer p{
 	font-size: 14px;
 	color: #393545;
+	margin:0;
 }
 
 
