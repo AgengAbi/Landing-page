@@ -29,6 +29,7 @@ body{
 	border: 2px solid #432b87;
 	color:#432b87 !important;
 	transform: uppercase;
+	line-height: normal;
 }
 .tombol:hover{
 	background-color: #6cbb01;
@@ -138,7 +139,6 @@ body{
 /*service*/
 .service{
 	padding: 60px 0;
-	margin-bottom:100px;
 }
 .service img{
 	padding: 0 0 36px;
@@ -259,24 +259,28 @@ body{
 	height: 50px;
 	transform: uppercase;
 }
+.what .btn:hover{
+	background-color: #642bff;
+}
 
 
 
 /*download*/
 .download{
 	padding: 75px 0;
-	margin-top: 51px;
 }
 .download h3{
 	font-size: 32px;
 	color: #261d40;
 	padding: 0 0 31px;
+	margin:0;
 }
 .download .p-download{
 	top: 31px;
 	font-size: 18px;
 	line-height: 1.67;
 	color: rgba(57,53,69,0.8);
+	margin:0;
 }
 .btn-gp2{
 	margin-top: 54px;
@@ -291,11 +295,17 @@ body{
 	padding: 110px 0;
 }
 .footer img{
-	margin-top: -8px;
-	padding: 0 0 23px;
+}
+.copyright{
+	position: relative;
+	top: 13px;
 }
 .footer a{
-	padding: 0 20px 0 5px;
+	padding: 0 50px 0 0;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	margin:0;
 }
 .footer h4{
 	font-size: 17px;
@@ -323,6 +333,9 @@ body{
 @media (min-width: 1200px) {
 
 	/*hero*/
+	.hero{
+	background-size: contain;
+	}
 	.hero-t{
 	
 	}
@@ -330,7 +343,7 @@ body{
 	/*about*/
 
 	.about_text{
-		margin-top: 90px;
+		margin-top: 0px;
 	}
 
 	/*service*/
