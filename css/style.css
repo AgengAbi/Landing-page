@@ -359,6 +359,15 @@ figure{
 	.footer h4{
 		padding: 0 0 20px;
 	}
+	.text-cardid p{
+		font-size: 14px;
+	}
+	.card-id h4{
+		font-size: 14px;
+	}
+	.card-id h5{
+		font-size: 12px;
+	}
 }
 
 @media (min-width: 992px) {
