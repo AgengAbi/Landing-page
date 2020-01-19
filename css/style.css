@@ -1,6 +1,6 @@
 *{
 	font-family: 'Source Sans Pro', sans-serif; 
-	/*border: 2px solid red;*/
+	border: 2px solid red;
 }
 body{
 	width: 100%;
@@ -54,7 +54,8 @@ body{
 	padding: 0;
 }
 .hero_text{
-	margin-top: 211px;
+	padding-top: 211px;
+	padding-left: 15px;
 }
 
 .hero h1{
@@ -312,6 +313,7 @@ figure{
 }
 .btn-gp2{
 	margin-top: 54px;
+	width: 203px;
 }
 .btn-gp2 a{
 	display: inline-block;
@@ -372,8 +374,8 @@ figure{
 	.hero{
 	background-size: contain;
 	}
-	.hero-t{
-	
+	.hero-text{
+		padding-left: 20px;
 	}
 
 	/*about*/
