@@ -1,6 +1,6 @@
 *{
 	font-family: 'Source Sans Pro', sans-serif; 
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 }
 body{
 	width: 100%;
@@ -55,7 +55,7 @@ body{
 }
 .hero_text{
 	padding-top: 211px;
-	padding-left: 15px;
+	padding-left: 10px;
 }
 
 .hero h1{
@@ -192,6 +192,7 @@ figure{
 }
 .text-cardid{
 	padding: 20px 10px
+	width:auto;
 }
 .cardi{
 	width: 370px;
@@ -231,7 +232,7 @@ figure{
 	width: 44px;
 	float: right;
 	bottom: 40px;
-	left: 30px;
+	left: 40px;
 	position: relative;
 }
 
