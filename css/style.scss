@@ -1,0 +1,469 @@
+*{
+	font-family: 'Source Sans Pro', sans-serif; 
+	/*border: 2px solid red;*/
+}
+body{
+	width: 100%;
+	overflow-x: hidden;
+}
+/*header*/
+/*nav*/
+.navbar {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	top:46px;
+
+	.navb{
+		padding: 8px 0;
+	}
+	.nav-link{
+		font-size: 14px;
+		font-weight: bold;
+		color: #261d40 !important;
+	}
+	.Blog-Mudik{
+		margin-right: 29px;
+		color: #261d40;
+	}
+	.tombol{
+		width: 100px;
+		height: 38px;
+		background-color: white;
+		border: 2px solid #432b87;
+		color:#432b87 !important;
+		transform: uppercase;
+		line-height: normal;
+	}
+	.tombol:hover{
+		background-color: #6cbb01;
+		color: white !important;
+		border: 2px solid #6cbb01;
+	}
+}
+/*hero*/
+
+.hero{
+	background-image: url(../image/img-hero.png);
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+.herow{
+	margin:0;
+}
+.heroo{
+	padding: 0;
+}
+.hero_text{
+	padding-top: 211px;
+	padding-left: 10px;
+}
+
+.hero h1{
+	height: 94px;
+	font-size: 42px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.3;
+	letter-spacing: normal;
+	text-align: left;
+	color: #261d40;
+	margin:0;
+}
+.hero p{
+	margin: 31px 0 0;
+	font-size: 18px;
+	color: rgba(57, 53, 69, 0.8);
+}
+.btn-gp{
+	position: relative;
+	top: 54px;
+}
+.hero a{
+	display: inline-block;
+}
+.button-googleplay{
+	font-size: 16px;
+	line-height: 26px;
+	latter-spacing: 0.48px;
+	align-item:center;
+	text-transfrom:uppercase;
+	background-color: #6cbb01;
+	border: none;
+	border-radius: 4px;
+	position: relative;
+	height: 54px;
+	width: 201px;
+
+	.green{
+		height: 54px;
+		width: 54px;
+		background-color: #6cbb01;
+		float: left;
+		position: absolute;
+		border-radius: 4px;
+
+		.objek{
+			border-top: 15px solid transparent;
+			border-bottom: 15px solid transparent;
+			border-left: 19px solid white;
+			top: 10px;
+			left: 18px;
+			position: absolute;
+		}
+	}
+	p{
+		text-transform: uppercase;
+		font-weight: 600;
+		font-size: 16px;
+		letter-spacing: 0.48px;
+		color: white;
+		margin-left: 66px;
+		margin-top: 11px;
+		position: absolute;
+		text-decoration: none;
+	}
+}
+
+
+
+/*about*/
+.about{
+	padding: 70px 0 90px;
+
+	h1{
+		font-size:32px;
+		font-weight: 600;
+		color: #261d40;
+		margin:0;
+	}
+	.about_text{
+		color: rgba(57, 53, 69, 0.8);
+		margin-top: 50px;
+		margin-left: 50px;
+	}
+	p{
+		margin:38px 0 0 ;
+	}
+}
+
+
+
+/*service*/
+.service{
+	padding: 60px 0;
+	
+	.serviced{
+		margin:0;
+	}
+	figure{
+		margin:0;
+	}
+	img{
+		padding: 0 0 36px;
+		margin:0;
+	}
+	h3{
+		font-size: 24px;
+		padding: 0 0 24px;
+		margin:0;
+	}
+	p{
+		font-size: 14px;
+		color: #393545;
+		margin:0;
+	}
+	.card{
+		border: none;
+		top: 32px;
+	}
+	hr{
+		width: 36px;
+		height: 2px;
+		background-color: #757575;
+	}
+}
+
+/*slick*/
+.testimoni{
+	background-color: #fafafa;
+	height: 528px;
+	margin-bottom: 110px;
+
+	.cardi{
+		width: 370px;
+		height: 260px;
+		border-radius: 6px;
+		box-shadow:  0px 10px 30px 0 rgba(67, 43, 135, 0.1);
+		margin-left: 20px;
+		margin-bottom: 30px;
+		margin-top: 110px;
+		background: #fff;
+		position: relative;
+
+		.text-cardid{
+			padding: 20px 10px;
+			width:auto;
+
+			p{
+				font-size:18px;
+				padding: 25px 0 0 25px;
+				margin:0;
+			}
+
+			.card-id{
+				float: right;
+				width: 120px;
+				right: 60px;
+				padding: 10px 0 20px;
+				position: relative;
+				height: 100px;
+
+				h4{
+					font-size:18px;
+					font-weight: bold;
+					margin:0;
+				}
+
+				h5{
+					font-size: 14px;
+					margin:0;
+				}
+				img{
+					height: 44px;
+					width: 44px;
+					float: right;
+					bottom: 40px;
+					left: 40px;
+					position: relative;
+				}
+			}				
+		}
+	}
+}
+
+/*what*/
+.what{
+	padding: 50px 0;
+
+	a{
+		float:right;
+	}
+	hr{
+		width: 37px;
+		height: 2px;
+		background-color: #ff7800;
+	}
+
+	.whatt{
+		margin: 0;
+	}
+
+	.card{
+		.h5{
+			font-size: 18px;
+			font-weight: bold;
+			padding: 0 0 5px;
+			margin:0;
+		}
+		.p{
+			font-size: 14px;
+			color: #393545;
+			padding: 0 0 31px;
+			margin:0;
+		}
+		a{
+			text-decoration: none;
+			color: #432b87;
+			font-weight: bold;
+			margin:0;
+		}
+	}
+	.cb{
+		 padding:70px 0 0;
+	}
+	button{
+		top:30px;
+	}
+	.btn{
+		font-size: 14px;
+		width: 190px;
+		height: 50px;
+		transfrom: uppercase;
+	}
+	.btn:hover{
+		background-color: #642bff;
+	}
+	.read{
+		justify-content: center;
+		display: flex;
+		background-color: #432b87;
+		color: white;
+		border: none;
+	}
+}
+
+
+
+/*download*/
+.download{
+	padding: 75px 0;
+
+	h3{
+		font-size: 32px;
+		color: #261d40;
+		padding: 0 0 31px;
+		margin:0;
+	}
+
+	.p-download{
+		top: 31px;
+		font-size: 18px;
+		line-height: 1.67;
+		color: rgba(57,53,69,0.8);
+		margin:0;
+	}
+
+	.btn-gp2{
+	margin-top: 54px;
+	width: 203px;
+	}
+	
+	.btn-gp2 a{
+		display: inline-block;
+	}
+}
+
+
+/*footer*/
+.footer{
+	padding: 110px 0;
+
+	.copyright{
+		margin-top: 13px;
+	}
+
+	a{
+		padding: 0 30px 0 0;
+		display: inline-block;
+		width: 25px;
+		height: 25px;
+		margin:0;
+	}
+
+	h4{
+		font-size: 17px;
+		font-weight: 600;
+		padding: 20px 0 20px;
+	}
+
+	p{
+		font-size: 14px;
+		color: #393545;
+		margin:0;
+	}
+}
+
+@media (min-width: 576px) {
+	/*slick*/
+	.text-cardid p{
+		font-size: 14px;
+	}
+	.card-id h4{
+		font-size: 14px;
+	}
+	.card-id h5{
+		font-size: 12px;
+	}
+}
+
+@media (min-width: 768px) {
+	/*slick*/
+	.center .cardi p{
+		font-size:18px;
+		width: 300px;
+		padding: 25px 0 0 25px;
+		margin:0;
+	}
+
+	/*footer*/
+	.footer h4{
+		padding: 0 0 20px;
+	}
+
+	/*download*/
+	.btn-gp2{
+		padding-left: 80px;
+	}
+}
+
+@media (min-width: 992px) {
+	/*slick*/
+	.center .cardi p{
+		font-size:18px;
+		width: 300px;
+		padding: 25px 0 0 25px;
+		margin:0;
+	}
+	/*footer*/
+	.footer h4{
+		padding: 0 0 20px;
+	}
+	
+}
+
+@media (min-width: 1200px) {
+
+	/*hero*/
+	.hero{
+	background-size: contain;
+	}
+	.hero_text{
+		padding-left: 80px;
+	}
+
+	/*about*/
+
+	.about_text{
+		margin-top: 0px;
+	}
+
+	/*service*/
+	.service h2{
+		font-size:32px;
+		color: #261d40;
+		font-weight: 600;
+	}
+
+	/*slick*/
+	.center .cardi p{
+		font-size:18px;
+		width: 350px;
+		padding: 25px 0 0 25px;
+		margin:0;
+	}
+
+	/*what*/
+	.what h2{
+		font-size:32px;
+		color: #261d40;
+		font-weight: 600;
+	}
+	.read{
+		justify-content: center;
+		display: flex;
+		left: 42%;
+	}
+
+
+	/*download*/
+	.btn-gp2{
+		position: relative;
+		left: 200px;
+	}
+	/*footer*/
+	.footer h4{
+		padding: 0 0 20px;
+	}
+}
