@@ -348,18 +348,9 @@ figure{
 	margin:0;
 }
 
-@media (min-width: 326px) {
-
-}
 @media (min-width: 576px) {
-}
-
-@media (min-width: 768px) {
-	/*footer*/
-	.footer h4{
-		padding: 0 0 20px;
-	}
-	.text-cardid p{
+	/*slick*/
+	.text-cardid{
 		font-size: 14px;
 	}
 	.card-id h4{
@@ -367,6 +358,13 @@ figure{
 	}
 	.card-id h5{
 		font-size: 12px;
+	}
+}
+
+@media (min-width: 768px) {
+	/*footer*/
+	.footer h4{
+		padding: 0 0 20px;
 	}
 }
 
@@ -384,8 +382,8 @@ figure{
 	.hero{
 	background-size: contain;
 	}
-	.hero-text{
-		padding-left: 20px;
+	.hero_text{
+		padding-left: 80px;
 	}
 
 	/*about*/
